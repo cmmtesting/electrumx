@@ -493,6 +493,9 @@ class Commercium(EquihashMixin, BitcoinMixin, Coin):
     TX_PER_BLOCK = 50
     REORG_LIMIT = 1000
     RPC_PORT = 9657
+    GENESIS_HASH = ('00045ada91749106ec529f0544ad15e9'
+                    'f0c2855fea37bf2952971de06e6251d2')
+
 
     @classmethod
     def header_hash(cls, header):
